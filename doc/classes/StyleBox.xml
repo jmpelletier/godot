@@ -47,7 +47,7 @@
 			<argument index="1" name="rect" type="Rect2" />
 			<description>
 				Draws this stylebox using a [CanvasItem] with given [RID].
-				You can get a [RID] value using [method Object.get_instance_id] on a [CanvasItem]-derived node.
+				You can get a [RID] value using the [method CanvasItem.get_canvas_item] of [CanvasItem]-derived node.
 			</description>
 		</method>
 		<method name="get_center_size" qualifiers="const">
